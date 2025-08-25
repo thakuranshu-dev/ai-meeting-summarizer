@@ -4,6 +4,7 @@ from utils.transcription import transcribe_audio
 from utils.summarization import summarize_text
 from utils.action_items import extract_action_items
 from utils.report_export import export_to_docx
+import config
 
 def process_meeting(audio_file):
     if not audio_file:
@@ -13,11 +14,11 @@ def process_meeting(audio_file):
         print(f"Processing audio file: {audio_file}")
         # transcript = transcribe_audio(audio_file, model_size="small")
         # Whisper tiny by default
-        transcript = transcribe_audio(audio_file, model_size="tiny")
+        transcript = transcribe_audio(audio_file)
     
         # summary = summarize_text(transcript)
         # T5-small for fast summarization
-        summary = summarize_text(transcript, model_name="t5-small")
+        summary = summarize_text(transcript)
 
         action_items = extract_action_items(transcript)
 

@@ -1,3 +1,6 @@
+"""
+Utility functions for exporting meeting reports to DOCX format.
+"""
 from docx import Document
 import os
 import tempfile

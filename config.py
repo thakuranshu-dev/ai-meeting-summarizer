@@ -1,0 +1,12 @@
+"""
+Configuration settings for the AI Meeting Summarizer application
+"""
+
+WHISPER_MODEL_SIZE = "tiny"
+DEFAULT_SOURCE_LANG = "en"
+DEFAULT_TARGET_LANG = "hi"
+AUDIO_SAMPLE_RATE = 16000
+RECORD_DURATION = 10
+TEXT_SUMMARIZATION_MODEL = "t5-small"
+MAX_TEXT_LENGTH = 100
+MIN_TEXT_LENGTH = 30

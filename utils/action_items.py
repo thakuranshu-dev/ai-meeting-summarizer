@@ -1,3 +1,6 @@
+"""
+Utility functions for extracting action items from meeting transcripts.
+"""
 import re
 
 def extract_action_items(transcript):
