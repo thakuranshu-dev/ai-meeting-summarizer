@@ -1,3 +1,9 @@
+---
+title: ai-meeting-summarizer
+app_file: app.py
+sdk: gradio
+sdk_version: 5.42.0
+---
 # AI Meeting Summarizer + Action Item Extractor
 
 ## Overview
