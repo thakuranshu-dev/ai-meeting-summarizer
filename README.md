@@ -32,6 +32,7 @@ This project is an AI-powered tool that transcribes meeting audio, summarizes th
 	- [Transformers](https://huggingface.co/docs/transformers/index)
 	- [python-docx](https://python-docx.readthedocs.io/en/latest/)
 	- [Gradio](https://gradio.app/)
+	- [FFMPEG](https://ffmpeg.org/documentation.html)
 
 ## Usage
 Run the app with:
@@ -48,10 +49,9 @@ Then open the provided local URL in your browser. Upload a meeting audio file an
   - `action_items.py` — Action item extraction
   - `report_export.py` — DOCX report generation
 - `assets/` — Sample audio files
-- `requirements.txt` — Python dependencies
+- `requirements.txt` — Python dependenciess
 
-## Example
-A sample meeting audio (`assets/sample_meeting.mp3`) is provided for testing.
+<p style="color: light-blue"><strong>View  <code>`docs.docx`</code> for more details`</strong></p>
 
 ## License
 This project is for educational and hackathon use. See repository for details.
